@@ -31,9 +31,6 @@ export default {
     }
   },
   mounted() {
-    //const location = navigator.geolocation.getCurrentPosition();
-    //console.log(location);
-
     getPosition('Orihuela').then(res => {
       let r = res.data[0];
 
