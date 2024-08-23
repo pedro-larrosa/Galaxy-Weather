@@ -23,6 +23,23 @@
     width: 35%;
 }
 
+.boton-volver {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.texto {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
 @media (max-width: 425px) {
     .temperatura {
         font-size: 2rem;
