@@ -34,7 +34,7 @@
 
 <script>
 import NuevaCiudadModal from '@/components/Modals/NuevaCiudadModal.vue';
-import { getWeather, getPosition } from '../shared/global/services/api-service'
+import { getWeather } from '../shared/global/services/api-service'
 import WeatherCardComponent from '@/components/WeatherCardComponent.vue';
 import { toast } from 'vue3-toastify';
 import 'vue3-toastify/dist/index.css';
@@ -65,11 +65,7 @@ export default {
   methods: {
     async cambiarCiudad(ciudad) {
       try {
-        //obtenemos la latitud y longitud de el nombre de la ciudad para poder obtener los datos del tiempo
-        let posicion = await getPosition(ciudad);
-        posicion = posicion.data[0];
-
-        const res = await getWeather(posicion.lat, posicion.lon);
+        const res = await getWeather(ciudad);
 
         this.weather = res.data;
         this.icon = res.data.weather[0].icon;
