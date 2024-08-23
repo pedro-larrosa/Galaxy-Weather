@@ -8,7 +8,7 @@ Aplicación para obtener datos básicos sobre la meteorología de cualquier zona
 
 - Copiar el archivo .env.example a un archivo .env y añadir tu key generada de la api de [OpenWeather](https://openweathermap.org/)
 
-<span>![</span><span>Imagen de apoyo a la hora de generar la key</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/pedro-larrosa/Galaxy-Weather/main/src/assets/image.png</span><span>)</span>
+![Imagen de apoyo a la hora de generar la key](https://raw.githubusercontent.com/pedro-larrosa/Galaxy-Weather/main/src/assets/image.png)
 
 ```sh
 npm install
