@@ -21,7 +21,7 @@
                 </Form>
                 </div>
                 <div class="modal-footer bg-primary">
-                    <button type="button" class="btn btn-link text-white" @click="cerrarModal()" data-bs-dismiss="modal">Volver</button>
+                    <button type="button" class="btn btn-link text-white boton-volver" @click="cerrarModal()" data-bs-dismiss="modal">Volver</button>
                     <button type="button" class="btn btn-success" @click="nuevaCiudad()">Añadir</button>
                 </div>
             </div>

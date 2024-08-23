@@ -82,7 +82,7 @@ export default {
           position: toast.POSITION.BOTTOM_RIGHT
         })
       } catch(e) {
-        toast.error('No se ha encontrado ninguna ubicación con ese nombre', {
+        toast.error(`No se ha encontrado ninguna ubicación llamada ${ciudad}`, {
           position: toast.POSITION.BOTTOM_RIGHT
         })
       }
