@@ -2,7 +2,7 @@
     <div id="nuevaCiudad" class="modal fade">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header bg-secondary text-white" data-bs-theme="dark">
+                <div class="modal-header bg-primary text-white" data-bs-theme="dark">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Añadir ubicación</h1>
                     <button ref="closeButton" type="button" class="btn-close" data-bs-dismiss="modal" @click="cerrarModal()" aria-label="Cerrar"></button>
                 </div>
@@ -20,7 +20,7 @@
                   <small class="text-danger ml-2" v-if="formError(errors, 'ciudad')">{{ errors.ciudad }}</small>
                 </Form>
                 </div>
-                <div class="modal-footer bg-secondary">
+                <div class="modal-footer bg-primary">
                     <button type="button" class="btn btn-link text-white" @click="cerrarModal()" data-bs-dismiss="modal">Volver</button>
                     <button type="button" class="btn btn-success" @click="nuevaCiudad()">Añadir</button>
                 </div>
