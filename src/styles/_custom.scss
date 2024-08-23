@@ -1,3 +1,43 @@
 .clickable:hover {
     cursor: pointer;
 }
+
+.weather-title {
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+.weather-country {
+    font-size: 1.5rem;
+}
+
+.temperatura {
+    font-size: 4.5rem;
+}
+
+.resultado {
+    text-align: center !important;
+}
+
+.weather-list-title {
+    width: 35%;
+}
+
+@media (max-width: 425px) {
+    .temperatura {
+        font-size: 2rem;
+    }
+
+    .weather-list {
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
+
+    
+}
+
+@media (min-width: 426px) {
+    .icono {
+        width: 200px;
+    }
+}
